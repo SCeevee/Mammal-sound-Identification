@@ -1,0 +1,23 @@
+body {
+    background: #000000;
+}
+
+
+.header_div {
+    font-family: 'Akronim', cursive;
+    color: darkred;
+}
+
+.copyright-footer {
+    font-family: 'Quicksand', sans-serif;
+    color: darkred;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+h4,
+h5 {
+    color: rgb(102, 0, 0)
+}

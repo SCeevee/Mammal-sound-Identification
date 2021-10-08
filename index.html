@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <title>Mammal sound Identification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akronim&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akronim&family=Quicksand:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="col-xs-12 header_div text-center" id="header">
+        <h1>Mammal sound Identification</h1>
+        <p>Note: Play these sounds: Human, Dog, Cat, Cow</p>
+    </div>
+    <div class="main_div">
+        <center> <button class="btn btn-danger" id="start_button" onclick="start()">Start</button>
+            <h4 id="sound_label">I can hear: </32><span>Press play</span>
+                <h5 id="accuracy_label">Accuracy: </32><span>Press play</span> <br> <img src="ear.png" id = "img" width="100" height="125">
+        </center>
+    </div> <br> <br> <br>
+    <center>
+        <div class="copyright-footer">Developed by Shreyan from BYJU's</div>
+    </center>
+    <script src="main.js"></script>
+</body>
+
+</html>
